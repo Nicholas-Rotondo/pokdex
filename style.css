@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #303030;
+  color: #00b200;
+}
+
+#screen {
+  margin: 10px auto;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+}
+
+#inner-screen {
+  margin: 5px auto;
+  width: 300px;
+  height: 300px;
+  background-color: darkgrey;
+}
+
+#test {
+  margin: 0px auto;
+}
