@@ -1,14 +1,20 @@
 import React from 'react';
 import Screen from './Screen.js';
+import NameForm from './Formfield.js';
 
 class App extends React.Component {
   render () {
     return (
       <div id="test">
-        <h1>
-          Pokedex
-        </h1>
-        <Screen />
+
+        <div>
+          <Screen/>
+        </div>
+
+        <div>
+          <NameForm />
+        </div>
+
       </div>
     );
   }
