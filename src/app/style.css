@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #303030;
+  color: #00b200;
+}
+
+#screen {
+  font-size: 30px;
+  margin: 50px auto;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+}
+
+#inner-screen {
+  margin: 5px auto;
+  width: 375px;
+  height: 300px;
+  background-color: black;
+}
+
+label {
+  font-size: 16px;
+}
+
+input {
+  margin: 5px;
+  font-size: 16px;
+}
+
+#test {
+  margin: 0px auto;
+}
+
+.loader:empty,
+.loader:empty:after {
+  /*border-radius: 50%;*/
+}
+.loader:empty {
+  margin: 20px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -1999em;
+  background-image: url('./img/poke.gif');
+  width: 375px;
+  height: 300px;
+  /*-webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;*/
+}
+/*
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }*/
