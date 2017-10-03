@@ -1,8 +1,9 @@
-[
+const Data = [
   {
     "name": "pikachu",
     "size": "small",
-    "element_type": "electric"
+    "element_type": "electric",
+    "imgUrl": 'pikachu.png'
   },
   {
     "name": "squirtle",
@@ -21,3 +22,5 @@
     "element_type": "earth"
   }
 ]
+
+export default Data;

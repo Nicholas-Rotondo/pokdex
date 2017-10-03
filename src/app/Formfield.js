@@ -1,4 +1,6 @@
 import React from 'react';
+import Data from './pokeapi_testex.js';
+
 
 class NameForm extends React.Component {
   constructor(props) {
@@ -14,10 +16,15 @@ class NameForm extends React.Component {
   }
 
   handleSubmit(event) {
-    console.log('A name was submitted: ' + this.state.value);
-    var foo = document.getElementById("inner-screen")
-    foo.innerHTML = this.state.value;
+    var foo = document.getElementById("inner-screen");
     event.preventDefault();
+
+    var inputval = this.state.value.toLowerCase();
+    var data_map = Data.forEach(function(i){
+      if(inputval === i.name){
+        foo.innerHTML = i.element_type;
+      }
+    })
   }
 
   render() {

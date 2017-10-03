@@ -1,6 +1,5 @@
 import React from 'react';
-import NameForm from './Formfield.js';
-import styles from './style.css';
+import './css/style.css';
 
 class Screen extends React.Component {
   render() {

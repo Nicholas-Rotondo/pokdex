@@ -31,7 +31,7 @@ var config = {
           loader: 'style-loader!css-loader'
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|svg|jpg|gif)$/,
         loader: 'file-loader',
         query: {
           // Inline images smaller than 10kb as data URIs

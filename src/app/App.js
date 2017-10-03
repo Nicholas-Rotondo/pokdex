@@ -1,6 +1,9 @@
 import React from 'react';
 import Screen from './Screen.js';
 import NameForm from './Formfield.js';
+import Header from './Header.js';
+import Footer from './Footer.js';
+import './css/style.css';
 
 class App extends React.Component {
     constructor() {
@@ -12,7 +15,7 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-      setTimeout(() => this.setState({ loading: false }), 5500);
+      setTimeout(() => this.setState({ loading: false }), 1500);
     }
     render () {
       const { loading } = this.state;
@@ -25,11 +28,19 @@ class App extends React.Component {
         <div id="test">
 
           <div>
+            <Header />
+          </div>
+
+          <div>
             <Screen/>
           </div>
 
           <div>
             <NameForm />
+          </div>
+
+          <div>
+            <Footer />
           </div>
 
         </div>
