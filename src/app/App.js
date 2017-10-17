@@ -6,23 +6,23 @@ import Footer from './Footer.js';
 import './css/style.css';
 
 class App extends React.Component {
-    constructor() {
-    super();
-
-    this.state = {
-      loading: true
-    };
-    }
-
-    componentDidMount() {
-      setTimeout(() => this.setState({ loading: false }), 1500);
-    }
+    // constructor() {
+    // super();
+    //
+    // this.state = {
+    //   loading: true
+    // };
+    // }
+    //
+    // componentDidMount() {
+    //   setTimeout(() => this.setState({ loading: false }), 1500);
+    // }
     render () {
-      const { loading } = this.state;
-
-        if(loading) {
-          return null; // render null when app is not ready
-        }
+      // const { loading } = this.state;
+      //
+      //   if(loading) {
+      //     return null; // render null when app is not ready
+      //   }
 
         return (
         <div id="test">
@@ -33,10 +33,6 @@ class App extends React.Component {
 
           <div>
             <Screen/>
-          </div>
-
-          <div>
-            <NameForm />
           </div>
 
           <div>

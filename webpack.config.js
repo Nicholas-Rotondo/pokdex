@@ -2,6 +2,7 @@ require("image-webpack-loader");
 var path = require('path');
 
 
+
 // var config = {
 //   entry: './main.js',
 //   output: {

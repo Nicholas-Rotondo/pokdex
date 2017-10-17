@@ -3,37 +3,59 @@ body {
   padding: 0;
   text-align: center;
   background-color: #303030;
-  color: #00b200;
+  color: white;
+  font-family: 'Prata', serif;
+
 }
 
-#header {
-  width: 100%;
-  height: 100px;
-  background-color: #00b200;
+#poo {
+  width: 250px;
+  height: 250px;
+  background-color: grey;
 
+}
+
+#colored {
+  color: black;
+}
+/*components*/
+#header {
+  width: 50%;
+  margin: 0 auto;
+  height: 100px;
+  background-color: #404f3d;
+  font-size: 30px;
 }
 
 #footer {
-  width: 100%;
+  margin: auto;
+  width: 50%;
   height: 100px;
-  background-color: #00b200;
-
+  background-color: 	#36444e;
+  font-size: 24px;
 }
+
+/*end of section*/
+
+/*screen components*/
 
 #screen {
   font-size: 30px;
   margin: 50px auto;
-  width: 500px;
+  width: 50%;
   height: 400px;
-  background-color: white;
+  background-color: #f8952c;
+  border-radius: 5px;
 }
 
 #inner-screen {
-  margin: 5px auto;
+  margin: 40px auto;
   width: 375px;
   height: 300px;
   background-color: black;
+  border-radius: 5px;
 }
+/*end of section*/
 
 label {
   font-size: 16px;
@@ -46,6 +68,12 @@ input {
 
 #test {
   margin: 0px auto;
+}
+
+h1 {
+  margin: 0 auto;
+  overflow-y: hidden;
+  position: relative;
 }
 
 .loader:empty,
