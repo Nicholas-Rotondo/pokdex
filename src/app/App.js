@@ -1,8 +1,8 @@
 import React from 'react';
-import Screen from './Screen.js';
-import NameForm from './Formfield.js';
-import Header from './Header.js';
-import Footer from './Footer.js';
+import Screen from './Screen';
+import NameForm from './ImgComponent';
+import Header from './Header';
+import Footer from './Footer';
 import './css/style.css';
 
 class App extends React.Component {
@@ -18,17 +18,17 @@ class App extends React.Component {
     //   setTimeout(() => this.setState({ loading: false }), 1500);
     // }
     render () {
-      // const { loading } = this.state;
-      //
-      //   if(loading) {
-      //     return null; // render null when app is not ready
-      //   }
+
 
         return (
         <div id="test">
 
           <div>
             <Header />
+          </div>
+
+          <div>
+            <NameForm />
           </div>
 
           <div>
